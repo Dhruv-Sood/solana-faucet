@@ -1,6 +1,4 @@
 'use client'
-
-import { Button } from "@/components/ui/button"
 import { Github } from "lucide-react"
 
 export function Navbar() {

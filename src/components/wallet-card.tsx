@@ -31,9 +31,8 @@ export function WalletCard({publicKey}:any) {
     getBalance()
   },[publicKey])
 
-  // Dummy data
   const walletAddress = publicKey?.toString()
-  const ethPrice = 2000 // Dummy ETH price in USD
+
 
   const shortenAddress = (address: string) => {
     return `${address.slice(0, 6)}...${address.slice(-4)}`

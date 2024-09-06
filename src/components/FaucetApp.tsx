@@ -7,17 +7,14 @@ import Faucet from "./Faucet";
 
 const FaucetApp = () => {
     const { publicKey } = useWallet()
-    console.log(publicKey?.toString());
 
-    useEffect(()=>{
-        console.log(publicKey);
-        
-    },[publicKey])
+
+
   return (
     <div className="min-h-screen">
           <Navbar />
           {publicKey ? <Faucet publicKey={publicKey.toString()}/> : <ConnectWallet />}
-          {/* <WalletMultiButton /> */}
+
     </div>
   )
 }
