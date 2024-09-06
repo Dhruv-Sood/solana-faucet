@@ -11,7 +11,7 @@ export function Navbar() {
           Sol-Faucet
         </div>
         <div className="hover:text-3xl hover:cursor-pointer">
-          <a href="#" target="_blank"><Github className="h-5 w-5 hover:h-6 hover:w-6 transition-all" /></a>
+          <a href="https://github.com/Dhruv-Sood/solana-faucet" target="_blank"><Github className="h-5 w-5 hover:h-6 hover:w-6 transition-all" /></a>
           
 
         </div>
