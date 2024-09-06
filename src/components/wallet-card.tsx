@@ -10,7 +10,7 @@ import { WalletDisconnectButton } from "@solana/wallet-adapter-react-ui"
 
 
 export function WalletCard({publicKey}:any) {
-  const [copied, setCopied] = useState(false)
+
   const [refreshing, setRefreshing] = useState(false)
   const [balance, setBalance] = useState(0)
 
@@ -40,8 +40,7 @@ export function WalletCard({publicKey}:any) {
 
   const copyAddress = () => {
     navigator.clipboard.writeText(walletAddress)
-    setCopied(true)
-    setTimeout(() => setCopied(false), 2000)
+    
   }
 
   const refreshBalance = async() => {
