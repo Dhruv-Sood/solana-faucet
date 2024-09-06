@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Clipboard, RefreshCw } from "lucide-react"
-import { useWallet } from "@solana/wallet-adapter-react"
+
 import SenButton from "./SendButton"
 
 import { Connection, PublicKey } from "@solana/web3.js"

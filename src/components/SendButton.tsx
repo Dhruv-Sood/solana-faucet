@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { RefreshCw, Send } from "lucide-react"
 
 import { Connection, PublicKey } from "@solana/web3.js"
-import { useWallet } from "@solana/wallet-adapter-react"
+
 
 export default function SenButton({ amount, publicKey }: any) {
 

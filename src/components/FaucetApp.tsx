@@ -1,7 +1,7 @@
-import { WalletMultiButton } from "@solana/wallet-adapter-react-ui"
+
 import { Navbar } from "./navbar"
 import { useWallet } from "@solana/wallet-adapter-react";
-import { useEffect } from "react";
+
 import ConnectWallet from "./ConnectWallet";
 import Faucet from "./Faucet";
 
